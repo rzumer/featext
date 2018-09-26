@@ -11,7 +11,7 @@ import org.opencv.core.MatOfInt;
 import org.opencv.imgproc.Imgproc;
 
 public class PosterExtractor {
-	// Based on approach by Daniel Calandria on https://github.com/fergunet/osgiliath/blob/master/FeaturesOpenCV/)
+	// Based on approach by Daniel Calandria at https://github.com/fergunet/osgiliath/blob/master/FeaturesOpenCV/
 	public static double[] extractHueHistogram(Mat image, int bins) {
 		double[] hueHistogram = new double[16];
 		
